@@ -1,0 +1,30 @@
+body{
+    background: #FEF3E2;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+
+}
+
+.centered h1{
+    font-size: 7rem;
+}
+
+.centered p{
+    color: #FAB12F;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0 5.5em;
+}
