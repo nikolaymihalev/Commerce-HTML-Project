@@ -58,3 +58,25 @@ p, a{
     width: 100%;
 }
 
+.process{
+    flex: 0 1 30%;
+    background: #fff;
+    height:fit-content;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.process h2{
+    font-size: 2.4rem;
+}
+
+.process ul li span{
+    font-size: 1.2rem;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1.3em 0 0.65em 0;
+}
+
+.process ul{
+    list-style: none outside;
+}
