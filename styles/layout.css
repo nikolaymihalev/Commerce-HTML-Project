@@ -80,3 +80,19 @@ p, a{
 .process ul{
     list-style: none outside;
 }
+
+.products{
+    flex: 1 1 69%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.product{
+    flex: 0 1 30%;
+    margin-bottom: 1.5em;
+}
+
+.product-img{
+    border-radius: 1.5em;
+}
