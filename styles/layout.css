@@ -126,7 +126,7 @@ body {
     background: #FA812F;
 }
 
-.contact-us{
+#contact-us{
     text-decoration: none;
     display: inline-block;
     padding: 1em 3em;
