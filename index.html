@@ -17,22 +17,20 @@
             <details>
                 <summary><i class="fa-solid fa-earth-americas" style="color: #000000;"></i></summary>
                 <div class="lan-btns-container">
-                    <button>EN</button>
-                    <button>BG</button>
+                    <button id="lang-btn-en">EN</button>
+                    <button id="lang-btn-bg">BG</button>
                 </div>                
             </details>
         </div>
         <div class="centered">
             <h1>Tailor Paws</h1>
-            <p>Подаръци с личен почерк за любителите на животни! В TailorPaws превръщаме снимките на вашите любими
-                домашни любимци в уникални и персонализирани подаръци. Независимо дали търсите нещо специално за себе си
-                или за ваш близък, нашите продукти носят усмивка и топлина.</p>
-            <a href="#main-container">Виж повече</a>
+            <p id="title-desc">Персонализирани подаръци за любителите на животните! В TailorPaws ние превръщаме снимки на вашите любими домашни любимци в уникални и персонализирани подаръци. Независимо дали търсите нещо специално за себе си или любим човек, нашите продукти носят усмивка и топлина.</p>
+            <a href="#main-container" id="more-btn">Виж повече</a>
         </div>
     </header>
     <section id="main-container">
         <div class="process">
-            <h2>Как работим?</h4>
+            <h2 id="process-title">Как работим?</h4>
                 <ul>
                     <li>
                         <span>Изпратете ни снимка</span>
@@ -100,6 +98,35 @@
     <footer class="footer-container">
         <a class="contact-us" href="https://www.instagram.com/tailorpaws/" target="_blank">Свържи се с нас</a>
     </footer>
+    <script>
+        const titleDescBG = 'Персонализирани подаръци за любителите на животните! В TailorPaws ние превръщаме снимки на вашите любими домашни любимци в уникални и персонализирани подаръци. Независимо дали търсите нещо специално за себе си или любим човек, нашите продукти носят усмивка и топлина.';
+        const titleDescEN = 'Personalized gifts for animal lovers! At TailorPaws, we turn photos of your beloved pets into unique and personalized gifts. Whether you\'re looking for something special for yourself or a loved one, our products bring a smile and warmth.'
+        const moreBtnBG = 'Виж повече';
+        const moreBtnEN = 'Show more';
+        const processTitleBG = 'Как работим?';
+        const processTitleEN = 'How do we work?';
+
+
+        const titleDescEl = document.getElementById('title-desc');
+        const moreBtn = document.getElementById('more-btn');
+        const processTitleEl = document.getElementById('process-title');
+
+        const bgBtn = document.getElementById('lang-btn-bg');
+        const enBtn = document.getElementById('lang-btn-en');
+        
+        
+        bgBtn.addEventListener('click', ()=>{
+            titleDescEl.innerText = titleDescBG;
+            moreBtn.innerText = moreBtnBG;
+            processTitleEl.innerText = processTitleBG;
+        })
+
+        enBtn.addEventListener('click', ()=>{
+            titleDescEl.innerText = titleDescEN;
+            moreBtn.innerText = moreBtnEN;
+            processTitleEl.innerText = processTitleEN;
+        })
+    </script>
 </body>
 
 </html>
