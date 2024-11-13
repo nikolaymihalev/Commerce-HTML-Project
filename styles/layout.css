@@ -1,15 +1,15 @@
-body{
-    background: #FEF3E2;    
+body {
+    background: #FEF3E2;
 }
 
 .header-container {
     position: relative;
     text-align: center;
-    color: red;
+    color: #FA4032;
 }
 
-.back-img{
-    width:100%; 
+.back-img {
+    width: 100%;
     height: 800px;
 }
 
@@ -21,11 +21,11 @@ body{
     text-align: center;
 }
 
-.centered h1{
+.centered h1 {
     font-size: 5rem;
 }
 
-.centered p{
+.centered p {
     color: #FAB12F;
     font-size: 1.4rem;
     font-weight: bold;
@@ -33,7 +33,7 @@ body{
     opacity: 0.8;
 }
 
-.centered a{
+.centered a {
     display: inline-block;
     color: #fff;
     background: #FAB12F;
@@ -45,7 +45,7 @@ body{
     border-radius: 1em;
 }
 
-#main-container{
+#main-container {
     display: flex;
     margin: 2em 2em;
     gap: 2em;
@@ -55,41 +55,58 @@ body{
     width: 100%;
 }
 
-.process{
+.process {
     flex: 0 1 30%;
     background: #fff;
-    height:fit-content;
+    height: fit-content;
     padding: 2em;
     border-radius: 1em;
 }
 
-.process h2{
+.process h2 {
     font-size: 2.4rem;
 }
 
-.process ul li span{
+.process ul li span {
     font-size: 1.2rem;
     display: inline-block;
     font-weight: bold;
     margin: 1.3em 0 0.65em 0;
 }
 
-.process ul{
+.process ul {
     list-style: none outside;
 }
 
-.products{
+.products {
     flex: 1 1 69%;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
 }
 
-.product{
+.product {
     flex: 0 1 30%;
     margin-bottom: 1.5em;
 }
 
-.product-img{
+.product-img {
     border-radius: 1.5em;
+}
+
+.footer-container{
+    text-align: center;
+    padding: 3em 0;
+    background: #FA812F;
+}
+
+.contact-us{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 3em;
+    background: #FA4032;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 0.5em;
 }
