@@ -8,6 +8,32 @@ body {
     color: #FA4032;
 }
 
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #000;
+    font-size: 1.3rem;
+    background: #fff;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+
+.lan-btns-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.lan-btns-container button{
+    margin-top: 1em;
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .back-img {
     width: 100%;
     height: 800px;
